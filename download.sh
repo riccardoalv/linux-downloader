@@ -270,7 +270,7 @@ normalmode () {
 			for distr in $x; do 
 				dist=${distro_arr[$distr]}
 				typeset -n arr=$dist
-				$"${arr[3]}" &
+				$"${arr[3]}"
 			done
 		#done
 		fi
